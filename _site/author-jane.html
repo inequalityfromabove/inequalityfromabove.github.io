@@ -99,7 +99,7 @@ var documents = [{
     "id": 2,
     "url": "http://localhost:4000/author-jane.html",
     "title": "Jane",
-    "body": "                        Jane Follow:         https://www. wowthemes. net         Blogger, fashionista, love to explore new ideas and write on my morning coffee!                                   Posts by Jane:                   		Correcting for top-coding	: 		  Here	 			In 				Jekyll, 				tutorial, 								Jan 06, 2020						            		Correcting for Zero-Bias - Low Tile	: 		  Here	 			In 				Jekyll, 				tutorial, 								Jan 05, 2020						            		Country Level - Inequality	: 		  Here you can find the main results at the country level. 	 			In 				Country, 				Gini, 								Jan 01, 2020						        "
+    "body": "                        Jane Follow:         https://www. wowthemes. net         . . .                                   Posts by Jane:                   		Correcting for top-coding	: 		  Here	 			In 				Jekyll, 				tutorial, 								Jan 06, 2020						            		Correcting for Zero-Bias - Low Tile	: 		  Here	 			In 				Jekyll, 				tutorial, 								Jan 05, 2020						            		Country Level - Inequality	: 		  Here you can find the main results at the country level. 	 			In 				Country, 				Gini, 								Jan 03, 2020						            		SubNational - Inequality - Europe	: 		  Here you can find the main results at the country level. 	 			In 				Country, 				Gini, 								Jan 02, 2020						            		SubNational - Inequality - Asia	: 		  Here you can find the main results at the country level. 	 			In 				Country, 				Gini, 								Jan 02, 2020						            		SubNational - Inequality - Americas	: 		  Here you can find the main results at the country level. 	 			In 				Country, 				Gini, 								Jan 02, 2020						            		SubNational - Inequality - Africa	: 		  Here you can find the main results at the country level. 	 			In 				Country, 				Gini, 								Jan 02, 2020						        "
     }, {
     "id": 3,
     "url": "http://localhost:4000/author-sal.html",
@@ -164,7 +164,27 @@ var documents = [{
     "id": 15,
     "url": "http://localhost:4000/country_results/",
     "title": "Country Level - Inequality",
-    "body": "2020/01/01 - Here you can find the main results at the country level. "
+    "body": "2020/01/03 - Here you can find the main results at the country level. "
+    }, {
+    "id": 16,
+    "url": "http://localhost:4000/region_europe/",
+    "title": "SubNational - Inequality - Europe",
+    "body": "2020/01/02 - Here you can find the main results at the country level. "
+    }, {
+    "id": 17,
+    "url": "http://localhost:4000/region_asia/",
+    "title": "SubNational - Inequality - Asia",
+    "body": "2020/01/02 - Here you can find the main results at the country level. "
+    }, {
+    "id": 18,
+    "url": "http://localhost:4000/region_americas/",
+    "title": "SubNational - Inequality - Americas",
+    "body": "2020/01/02 - Here you can find the main results at the country level. "
+    }, {
+    "id": 19,
+    "url": "http://localhost:4000/region_africa/",
+    "title": "SubNational - Inequality - Africa",
+    "body": "2020/01/02 - Here you can find the main results at the country level. "
     }];
 
 var idx = lunr(function () {
@@ -241,7 +261,7 @@ function lunr_search(term) {
             <div class="col-md-9">
                 <h2 class="font-weight-bold">Jane <span class="small btn btn-outline-success btn-sm btn-round"><a href="https://twitter.com/wowthemesnet">Follow</a></span></h2>
                 <p><a href="https://www.wowthemes.net">https://www.wowthemes.net</a></p>
-                <p class="excerpt">Blogger, fashionista, love to explore new ideas and write on my morning coffee!</p>
+                <p class="excerpt">...</p>
             </div>
             <div class="col-md-3 text-right">
                 <img alt="Ramon" src="//assets/images/avatar2.jpg" class="rounded-circle" height="100" width="100">
@@ -328,13 +348,133 @@ function lunr_search(term) {
 		</span>
 	</small>
 	<small class="text-muted">
-		Jan 01, 2020
+		Jan 03, 2020
 	</small>
 </div>
 
 	<div class="col-md-3 pr-0 text-right">
 	<a href="/country_results/">
 	<img class="w-100" src="/assets/images/World_Inequality.png" alt="Country Level - Inequality">
+	</a>
+	</div>
+
+</div>
+            
+            <div class="mb-5 d-flex justify-content-between main-loop-card">
+<div class="pr-3">
+	<h2 class="mb-1 h4 font-weight-bold">
+	<a class="text-dark" href="/region_europe/">SubNational - Inequality - Europe</a>
+	</h2>
+	<p class="excerpt">
+	   Here you can find the main results at the country level.
+	</p>
+	<small class="d-block text-muted">
+		In <span class="catlist">
+		
+		<a class="text-capitalize text-muted smoothscroll" href="/categories.html#country">Country</a><span class="sep">, </span>
+		
+		<a class="text-capitalize text-muted smoothscroll" href="/categories.html#gini">Gini</a><span class="sep">, </span>
+		
+		</span>
+	</small>
+	<small class="text-muted">
+		Jan 02, 2020
+	</small>
+</div>
+
+	<div class="col-md-3 pr-0 text-right">
+	<a href="/region_europe/">
+	<img class="w-100" src="/assets/images/europe.png" alt="SubNational - Inequality - Europe">
+	</a>
+	</div>
+
+</div>
+            
+            <div class="mb-5 d-flex justify-content-between main-loop-card">
+<div class="pr-3">
+	<h2 class="mb-1 h4 font-weight-bold">
+	<a class="text-dark" href="/region_asia/">SubNational - Inequality - Asia</a>
+	</h2>
+	<p class="excerpt">
+	   Here you can find the main results at the country level.
+	</p>
+	<small class="d-block text-muted">
+		In <span class="catlist">
+		
+		<a class="text-capitalize text-muted smoothscroll" href="/categories.html#country">Country</a><span class="sep">, </span>
+		
+		<a class="text-capitalize text-muted smoothscroll" href="/categories.html#gini">Gini</a><span class="sep">, </span>
+		
+		</span>
+	</small>
+	<small class="text-muted">
+		Jan 02, 2020
+	</small>
+</div>
+
+	<div class="col-md-3 pr-0 text-right">
+	<a href="/region_asia/">
+	<img class="w-100" src="/assets/images/asia.png" alt="SubNational - Inequality - Asia">
+	</a>
+	</div>
+
+</div>
+            
+            <div class="mb-5 d-flex justify-content-between main-loop-card">
+<div class="pr-3">
+	<h2 class="mb-1 h4 font-weight-bold">
+	<a class="text-dark" href="/region_americas/">SubNational - Inequality - Americas</a>
+	</h2>
+	<p class="excerpt">
+	   Here you can find the main results at the country level.
+	</p>
+	<small class="d-block text-muted">
+		In <span class="catlist">
+		
+		<a class="text-capitalize text-muted smoothscroll" href="/categories.html#country">Country</a><span class="sep">, </span>
+		
+		<a class="text-capitalize text-muted smoothscroll" href="/categories.html#gini">Gini</a><span class="sep">, </span>
+		
+		</span>
+	</small>
+	<small class="text-muted">
+		Jan 02, 2020
+	</small>
+</div>
+
+	<div class="col-md-3 pr-0 text-right">
+	<a href="/region_americas/">
+	<img class="w-100" src="/assets/images/americas.png" alt="SubNational - Inequality - Americas">
+	</a>
+	</div>
+
+</div>
+            
+            <div class="mb-5 d-flex justify-content-between main-loop-card">
+<div class="pr-3">
+	<h2 class="mb-1 h4 font-weight-bold">
+	<a class="text-dark" href="/region_africa/">SubNational - Inequality - Africa</a>
+	</h2>
+	<p class="excerpt">
+	   Here you can find the main results at the country level.
+	</p>
+	<small class="d-block text-muted">
+		In <span class="catlist">
+		
+		<a class="text-capitalize text-muted smoothscroll" href="/categories.html#country">Country</a><span class="sep">, </span>
+		
+		<a class="text-capitalize text-muted smoothscroll" href="/categories.html#gini">Gini</a><span class="sep">, </span>
+		
+		</span>
+	</small>
+	<small class="text-muted">
+		Jan 02, 2020
+	</small>
+</div>
+
+	<div class="col-md-3 pr-0 text-right">
+	<a href="/region_africa/">
+	<img class="w-100" src="/assets/images/africa.png" alt="SubNational - Inequality - Africa">
 	</a>
 	</div>
 
