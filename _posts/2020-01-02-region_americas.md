@@ -9,3 +9,5 @@ my_variable: tableau_region_america.html
 ---
 
 Here you can find the main results at the country level.
+
+This is a \emph{LaTeX} file.
